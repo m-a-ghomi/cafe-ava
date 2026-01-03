@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/input.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../p-cofe-ava/logo/photo18888747340.jpg">
+     <script src="https://kit.fontawesome.com/08dd968ca0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body class="font-medium font-suns">
+    <div class="continer max-w-[1620px] m-auto">
+        <header class="flex justify-between text-white bg-black items-center w-[100%] px-[40px] h-[50px] border-b-[1px] border-gray-900 fixed z-10">
+            <div class="left">
+            <ul class="flex">
+                <a href="#" class="px-3 hover:text-gray-300">خانه</a>
+                <a href="#" class="px-3 hover:text-gray-300">گالری</a>
+                <a href="#menu" class="px-3 hover:text-gray-300">منو</a>
+                <a href="#" class="px-3 hover:text-gray-300">درباره ما</a>
+                <a href="#" class="px-3 hover:text-gray-300">تماس با ما</a>
+            </ul>
+            </div>
+            <div class="right">
+                <h1 class="text-[23px] font-bold mr-3">کافه آوا</h1>
+            </div>
+        </header>
+
+        <!-- nav bor -->
+
+        <div class="nav bg-[url('./pic/g5.jpg')] bg-cover bg-center w-full bg-fixed h-[100vh] content-center text-center text-white overflow-hidden relative">
+            <div class="text">
+                <h1 class="text-[65px] font-bold">کافه آوا</h1>
+                <p class="text-white text-[40px] rotate-12 shadow-md shadow-white my-10 bg-black w-[1800px] translate-x-[-100px] py-2 opacity-[87%]">تجربه منحصر به فرد از قهوه های اصیل در فضایی آرام و دلنشین</p>
+            </div>
+            <div class="mt-5 btn">
+                <button class="border-white border-solid border-[1px] rounded-2xl px-3 py-[4px] text-[13px] mr-2">رزرو میز</button>
+                <button class="border-white border-solid border-[1px] rounded-2xl px-3 py-[4px] text-[16px] bg-white text-black"><a href="#menu">رفتن به منو</a></button>
+            </div>
+             <div class="bg-black w-[50px] h-[100px] py-[12px] rounded-2xl mx-auto mt-[100px] absolute left-[730px] top-[480px]">
+                <i class="fa fa-chevron-down text-[20px] animate-bounceCustom"></i>
+            </div>
+        </div>
+        <!-- tag prodct -->
+         <div class="tag max-w-[900px] mx-auto text-center relative right-[100%]" id="product">
+            <h1 class="font-[700] my-9 text-[23px]">محبوب ترین محصولات ما</h1>
+                <div class="grid grid-cols-3 gap-3">
+                    <div class="section bg-gray-100 w-[290px] h-[280px] rounded-md flex-col overflow-hidden shadow-md shadow-gray-200 opacity-0" id="card">
+                        <div class="top"><img class="h-[180px] w-[290px] bg-cover object-cover" src="./pic/des.avif" alt=""></div>
+                        <div class="flex flex-col justify-between px-4 text-right butom">
+                            <h2 class="font-[600] mt-2 text-[15px] mb-[3px] font-custom">کیک شکلاتی</h2>
+                            <p class="text-[12px] text-gray-700">کیک شکلاتی خانگی با روکش گاتاش</p>
+                            <div class="flex items-center justify-between my-3 order">
+                                <button class="bg-black text-white rounded-2xl px-3 py-[4px] text-[12px] mr-2">سفارش</button>
+                                <h3 class="text-[14px] font-bold font-custom">تومان<span class="float-right">48000</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="section bg-gray-100 w-[290px] h-[280px] rounded-md flex-col overflow-hidden shadow-md shadow-gray-200 opacity-0" id="card">
+                        <div class="top"><img class="h-[180px] w-[290px] bg-cover object-cover" src="./pic/sperso.jpg" alt=""></div>
+                        <div class="flex flex-col justify-between px-4 text-right butom">
+                            <h2 class="font-[600] mt-2 text-[15px] mb-[3px] font-custom">اسپرسو دابل</h2>
+                            <p class="text-[12px] text-gray-700">قهوه اسپرسو دابل با طعم بی نظیر</p>
+                            <div class="flex items-center justify-between my-3 order">
+                                <button class="bg-black text-white rounded-2xl px-3 py-[4px] text-[12px] mr-2">سفارش</button>
+                                <h3 class="text-[14px] font-bold font-custom">تومان<span class="float-right">35000</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="section bg-gray-100 w-[290px] h-[280px] rounded-md flex-col overflow-hidden shadow-md shadow-gray-200 opacity-0" id="card">
+                        <div class="top"><img class="h-[180px] w-[290px] bg-cover object-cover" src="./pic/3.jpg" alt=""></div>
+                        <div class="flex flex-col justify-between px-4 text-right butom">
+                            <h2 class="font-[600] mt-2 text-[15px] mb-[3px] font-custom">کاپوچینو</h2>
+                            <p class="text-[12px] text-gray-700">کاپوچینو با فوم شیر مخملی و دارچین</p>
+                            <div class="flex items-center justify-between my-3 order">
+                                <button class="bg-black text-white rounded-2xl px-3 py-[4px] text-[12px] mr-2">سفارش</button>
+                                <h3 class="text-[14px] font-bold font-custom">تومان<span class="float-right">42000</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+         </div>
+         <div class="menu-cont w-[100%] bg-gray-100 mt-[50px] p-1 ">
+         <!-- menu -->
+            <h1 class="font-[700] my-8 text-[23px] text-center"   id="menu">منوی کافه</h1>
+            <div class="section w-[900px] mx-auto shadow-lg shadow-gray-200 p-1 relative left-[100%] h-[55px] overflow-hidden" id="menu-1">
+                <div class="top bg-white w-[100%] p-4">
+                    <h2 class="pb-2 text-right border-b-2 border-gray-100">قهوه های گرم</h2>
+                    <div class="flex w-[100%] gap-5">
+                        <div class="sec-left w-[50%]">
+                            <div class="flex items-center justify-between my-1">
+                                <div><h3 class="text-[14px] font-bold font-custom">تومان<span class="float-right">35000</span></h3></div>
+                                <div class="text-right">
+                                    <h2 class="font-[600] mt-2 text-[14px] mb-[3px] font-custom">اسپرسو دبل</h2>
+                                    <p class="text-[12px] text-gray-700">دو شات اسپرشو غلیظ</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between my-1">
+                                <div><h3 class="text-[14px] font-bold font-custom">تومان<span class="float-right">40000</span></h3></div>
+                                <div class="text-right">
+                                    <h2 class="font-[600] mt-2 text-[14px] mb-[3px] font-custom">لاته</h2>
+                                    <p class="text-[12px] text-gray-700">اسپرشو با شیر بخار پز</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between my-1">
+                                <div><h3 class="text-[14px] font-bold font-custom">تومان<span class="float-right">45000</span></h3></div>
+                                <div class="text-right">
+                                    <h2 class="font-[600] mt-2 text-[14px] mb-[3px] font-custom">موکا</h2>
+                                    <p class="text-[12px] text-gray-700">اسپرسو با شکلات و شیر</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sec-righ w-[50%]">
+                            <div class="flex items-center justify-between my-1">
+                                <div><h3 class="text-[14px] font-bold font-custom">تومان<span class="float-right">28000</span></h3></div>
+                                <div class="text-right">
+                                    <h2 class="font-[600] mt-2 text-[14px] mb-[3px] font-custom">اسپرسو</h2>
+                                    <p class="text-[12px] text-gray-700">اسپرسو ایتالیایی اصل</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between my-1">
+                                <div><h3 class="text-[14px] font-bold font-custom">تومان<span class="float-right">32000</span></h3></div>
+                                <div class="text-right">
+                                    <h2 class="font-[600] mt-2 text-[14px] mb-[3px] font-custom">آمریکانو</h2>
+                                    <p class="text-[12px] text-gray-700">اسپرشو با آب جوش</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between my-1">
+                                <div><h3 class="text-[14px] font-bold font-custom">تومان<span class="float-right">42000</span></h3></div>
+                                <div class="text-right">
+                                    <h2 class="font-[600] mt-2 text-[14px] mb-[3px] font-custom">کاپوچینو</h2>
+                                    <p class="text-[12px] text-gray-700">اسپرسو با فوم شیر</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- menu2 -->
+             <div class="section w-[900px] mx-auto my-6 shadow-lg shadow-gray-300 p-1 h-[55px] overflow-hidden relative right-[100%]" id="menu-2">
+                <div class="top bg-white w-[100%] p-4">
+                    <h2 class="pb-2 text-right border-b-2 border-gray-100">دسرها</h2>
+                    <div class="flex w-[100%] gap-5">
+                        <div class="sec-left w-[50%]">
+                            <div class="flex items-center justify-between my-1">
+                                <div><h3 class="text-[14px] font-bold font-custom">تومان<span class="float-right">52000</span></h3></div>
+                                <div class="text-right">
+                                    <h2 class="font-[600] mt-2 text-[14px] mb-[3px] font-custom">چیزکیک</h2>
+                                    <p class="text-[12px] text-gray-700">چیزکیک با سس توت فرنگی</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between my-1">
+                                <div><h3 class="text-[14px] font-bold font-custom">تومان<span class="float-right">38000</span></h3></div>
+                                <div class="text-right">
+                                    <h2 class="font-[600] mt-2 text-[14px] mb-[3px] font-custom">کروسان</h2>
+                                    <p class="text-[12px] text-gray-700">کروسان تازه با کره فرانسوی</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sec-righ w-[50%]">
+                            <div class="flex items-center justify-between my-1">
+                                <div><h3 class="text-[14px] font-bold font-custom">تومان<span class="float-right">48000</span></h3></div>
+                                <div class="text-right">
+                                    <h2 class="font-[600] mt-2 text-[14px] mb-[3px] font-custom">دسر شکلاتی</h2>
+                                    <p class="text-[12px] text-gray-700">کیک شکلاتی خانگی</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between my-1">
+                                <div><h3 class="text-[14px] font-bold font-custom">تومان<span class="float-right">55000</span></h3></div>
+                                <div class="text-right">
+                                    <h2 class="font-[600] mt-2 text-[14px] mb-[3px] font-custom">تیرامیسو</h2>
+                                    <p class="text-[12px] text-gray-700">دسر ایتالیایی با قهوه و ماسکارپونه</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- abute cofe -->
+             <div id="abute-me" class="bg-white w-[100%] mt-[30px]">
+                <div class="w-[900px] flex m-auto py-[50px] gap-6 items-center">
+                    <div class="w-[50%] text-right">
+                        <h2 class="text-[20px] font-[700]">درباره کافه آوا</h2>
+                        <p class="text-[10px] mt-3 text-gray-800">کافه آوا، با فضای دنج و دلنشین خود، یکی از محبوب‌ترین مکان‌ها برای استراحت و لذت بردن از یک فنجان قهوه در تهران است. این کافه با منوی متنوع شامل انواع نوشیدنی‌های گرم، دسرهای خوشمزه و غذاهای سبک، تجربه‌ای خاص را برای مشتریان فراهم می‌کند</p>
+                        <p class="text-[10px] mt-3 text-gray-800"> !همچنین امکان سفارش آنلاین را فراهم کرده تا مشتریان بتوانند به راحتی از خدمات آن بهره‌مند شوند. اگر به دنبال جایی برای گذراندن لحظاتی آرام و دلپذیر هستید، این کافه گزینه‌ای عالی خواهد بود</p>
+                         <button class="bg-black text-white rounded-2xl px-3 py-[5px] mt-5 mr-2 text-[12px] font-[400]">با ما آشنا شوید</button>
+                    </div>
+                     <div class="w-[50%] rounded-md overflow-hidden shadow-lg shadow-gray-300">
+                        <img class="w-[450px] h-[250px] object-cover" src="./logo/photo18888747340.jpg" alt="">
+                    </div>
+                </div>
+             </div>
+             <!-- golory -->
+              <div id="golory">
+                <h1 class="font-[700] my-8 text-[23px] text-center">گالری تصاویر</h1>
+                <div class="section grid grid-cols-3 w-[900px] m-auto gap-x-8 gap-y-3 pb-10">
+                    <div class="w-[300px] h-[200px] rounded-md overflow-hidden shadow-md shadow-gray-200"><img class="w-[100%] h-[100%] object-cover" src="./pic/bg.jpg" alt=""></div>
+                    <div class="w-[300px] h-[200px] rounded-md overflow-hidden shadow-md shadow-gray-300"><img class="w-[100%] h-[100%] object-cover" src="./pic/g1.jpg" alt=""></div>
+                    <div class="w-[300px] h-[200px] rounded-md overflow-hidden shadow-md shadow-gray-300"><img class="w-[100%] h-[100%] object-cover" src="./pic/g2.jpg" alt=""></div>
+                    <div class="w-[300px] h-[200px] rounded-md overflow-hidden shadow-md shadow-gray-300"><img class="w-[100%] h-[100%] object-cover" src="./pic/g3.jpg" alt=""></div>
+                    <div class="w-[300px] h-[200px] rounded-md overflow-hidden shadow-md shadow-gray-300"><img class="w-[100%] h-[100%] object-cover" src="./pic/g4.jpg" alt=""></div>
+                    <div class="w-[300px] h-[200px] rounded-md overflow-hidden shadow-md shadow-gray-300"><img class="w-[100%] h-[100%] object-cover" src="./pic/g6.jpg" alt=""></div>
+                </div>
+              </div>
+          </div>
+          <!-- call to mee -->
+           <div id="callmee" class="w-[900px] m-auto">
+            <h1 class="font-[700] mt-8 mb-3 text-[23px] text-center">تماس با ما</h1>
+            <div id="in2" class="flex gap-x-4">
+                <div class="info w-[50%] text-right bg-gray-100 rounded-md px-4 py-2">
+                <h4 class="font-bold text-[15px]">ارسال پیام</h4>
+                <div id="form" class="w-[100%] mt-3">
+                    <label for="" class="block text-gray-700 text-[12px]">نام و نام خانوادگی</label>
+                    <input type="text" class="w-[100%] bg-white my-2 rounded-md h-7 shadow-gray-300 shadow-sm">
+                </div>
+                 <div id="form" class="w-[100%] mt-1">
+                    <label for="" class="block text-gray-700 text-[12px]">ایمیل</label>
+                    <input type="text" class="w-[100%] bg-white my-2 rounded-md h-7 shadow-gray-300 shadow-sm">
+                </div>
+                 <div id="form" class="w-[100%] mt-1">
+                    <label for="" class="block text-gray-700 text-[12px]">موضوع</label>
+                    <input type="text" class="w-[100%] bg-white my-2 rounded-md h-7 shadow-gray-300 shadow-sm">
+                </div>
+                 <div id="form" class="w-[100%] mt-1">
+                    <label for="" class="block text-gray-700 text-[12px]">پیام</label>
+                    <textarea name="" id="" class="w-[100%] bg-white my-2 rounded-md h-[70px] shadow-gray-300 shadow-sm outline-none"></textarea>
+                </div>
+                 <button class="w-[100%] bg-black mt-2 rounded-md h-7 text-white text-[12px] font-[400]">ارسال پیام</button>
+            </div>
+
+
+
+            <div class="info w-[50%] text-right bg-gray-100 rounded-md px-4 py-2">
+                <h4 class="font-bold text-[15px]">اطلاعات تماس</h4>
+                <icon class="flex items-center justify-end gap-2 mt-4">
+                <i class="text-[14px] text-gray-700 block font-[500] font-serif">تهران خیابان فلان کوچه میرزا پلاک 7</i>
+                <img src="./icon/location.png" alt="" class="w-[13px] h-[13px]">
+                </icon>
+               <icon class="flex items-center justify-end gap-2 mt-3">
+                <i class="text-[14px] text-gray-700 block font-mono font-[500]">021-85876566</i>
+                <img src="./icon/phone-call.svg" alt="" class="w-[13px] h-[13px]">
+                </icon>
+                <icon class="flex items-center justify-end gap-2 mt-3">
+                <i class="text-[14px] text-gray-700 block font-[500] font-serif">info@cafavair.com</i>
+                <img src="./icon/email.jpg" alt="" class="w-[15px] h-[15px]">
+                </icon>
+                <h5 class="mt-4 text-[14px] font-bold">: ساعات کاری</h5>
+                 <i class="text-[14px] text-gray-700 block font-[400] font-custom mt-1">شنبه تا چهارشبه: از8 صبح تا10شب</i>
+                  <i class="text-[14px] text-gray-700 block font-[400] font-custom">شنبه تا چهارشبه: از 8 صبح تا10شب</i>
+                <div class="flex justify-end gap-4 mt-5 app">
+                    <i class="p-2 text-white bg-black rounded-full fa fa-twitter"></i>
+                    <i class="p-2 text-white bg-black rounded-full fa fa-instagram"></i>
+                    <i class="p-2 text-white bg-black rounded-full fa fa-facebook-official"></i>
+                </div>
+            </div>
+            </div>
+             </div>
+            <!-- footer -->
+            <div id="footer-cont" class=" w-[100%] bg-black mt-6 mx-auto py-6">
+                <div class="w-[1200px] mx-auto flex">
+                    <div id="leftfot" class="w-[300px] text-right">
+                        <h4 class="font-bold text-[12px] text-white">خبرنامه</h4>
+                        <p class="text-[12px] text-gray-400 mt-2">برای اطلاع از آخرین اخبار و تخفیف ها عضو خبرنامه شوید</p>
+                        <form class="flex justify-end mt-4">
+                            <button class="text-black bg-white text-[12px] px-2 rounded-e-[4px]">عضویت</button>
+                            <input type="text" placeholder="ایمیل خود را وارد کنید" class="px-2 py-[2px] text-right text-[12px] bg-white rounded-s-[4px]">
+                        </form>
+                    </div>
+                     <div id="leftfot" class="w-[400px] text-right">
+                        <h4 class="font-bold text-[12px] text-white">دسترسی سریع</h4>
+                        <ul class="text-gray-400 list-none text-[12px] mt-3">
+                            <li class="mt-2"><a href="#">خانه</a></li>
+                            <li class="mt-2"><a href="#menu">منو</a></li>
+                            <li class="mt-2"><a href="#">درباره ما</a></li>
+                            <li class="mt-2"><a href="#">گالری</a></li>
+                            <li class="mt-2"><a href="#">تماس با ما</a></li>
+                        </ul>
+                        
+                    </div>
+                     <div id="leftfot" class="w-[500px] text-right mt-8">
+                        <h1 class="font-bold text-[20px] text-white">کافه آوا</h1>
+                          <p class="text-[10px] mt-3 text-gray-400  w-[220px] float-right">تجربه ای منحصر به فرد از قهوه هایی اصیل در فضایی آرام و دلنشین</p>
+                          
+                    </div>
+                 </div>
+            </div>
+    </div>
+    <script src="./sc js/app.js"></script>
+</body>
+</html>
